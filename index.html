@@ -4,175 +4,190 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The remix icons library link -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Open sans font from google fonts library links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Project 1 | Reflex</title>
   </head>
   <body>
-    <main class="container">
-      <section class="reflex">
-        <img
-          class="reflex__new-york"
-          src="./images/newyork.jpg"
-          alt="new york city"
-        />
-        <div class="reflex__texts">
-          <h1 class="reflex__texts__title">Reflex</h1>
-          <p class="reflex__texts__para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            adipisci officia aspernatur atque accusantium ea cum sed laudantium
-            tempora accusamus corporis, deleniti debitis, dolore unde ipsa
-            aliquam minima odio voluptas.
-          </p>
-          <button type="button">GET STARTED</button>
-        </div>
-      </section>
-      <section class="ipsum">
-        <hr />
-        <h1 class="ipsum__title">Ipsum malesuada</h1>
-        <p class="ipsum__first-para">
-          Return facilisis. Class aptent taciti sociosqu litora torquent et
-          conubia etiam nostra.
-        </p>
-        <div class="ipsum__icons">
-          <i class="ri-code-s-slash-line"></i>
-          <i class="ri-settings-3-fill"></i>
-          <i class="ri-vip-diamond-fill"></i>
-          <i class="ri-polaroid-2-line"></i>
-          <i class="ri-briefcase-4-fill"></i>
-        </div>
-        <p class="ipsum__second-para">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-          temporibus hic autem, ad veritatis repellat ipsa corporis voluptatibus
-          repudiandae rem eaque sequi, blanditiis, quia impedit quam veniam
-          dignissimos quaerat aperiam. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Quaerat ut deleniti ratione eum laboriosam quis ipsa
-          dolores obcaecati tenetur quas error aspernatur exercitationem,
-          perspiciatis quod ullam recusandae sed corporis eveniet?
-        </p>
-        <button class="ipsum__details" type="button">DETAILS</button>
-      </section>
-      <section class="duis">
-        <div class="duis__header">
+    <div class="wrapper">
+      <main class="container">
+        <section class="reflex">
+          <img
+            class="reflex__new-york"
+            src="./images/newyork.jpg"
+            alt="new york city"
+          />
+          <div class="reflex__texts">
+            <h1 class="reflex__texts__title">Reflex</h1>
+            <p class="reflex__texts__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              adipisci officia aspernatur atque accusantium ea cum sed laudantium
+              tempora accusamus corporis, deleniti debitis, dolore unde ipsa
+              aliquam minima odio voluptas.
+            </p>
+            <button type="button">GET STARTED</button>
+          </div>
+        </section>
+        <section class="ipsum">
           <hr />
-          <h1 class="duis__header__title">Duis torquent</h1>
-          <p class="duis__header__title">
+          <h1 class="ipsum__title">Ipsum malesuada</h1>
+          <p class="ipsum__first-para">
             Return facilisis. Class aptent taciti sociosqu litora torquent et
             conubia etiam nostra.
           </p>
-        </div>
-        <div class="card card1">
-          <img
-            src="./images/escalator.jpg"
-            alt="escalator"
-            class="card__image"
-          />
-          <div class="card__text">
-            <hr />
-            <h2 class="card__text__title">Aliquam veroeros</h2>
-            <p class="card__text__para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              dolorem nisi dolores quisquam quibusdam impedit et unde eius,
-              veritatis debitis molestias reprehenderit architecto delectus
-              recusandae sequi dolor! Quidem, sapiente accusamus.
-            </p>
-            <button class="card__text__details" type="button">DETAILS</button>
+          <div class="ipsum__icons">
+            <i class="ri-code-s-slash-line"></i>
+            <i class="ri-settings-3-fill"></i>
+            <i class="ri-vip-diamond-fill"></i>
+            <i class="ri-polaroid-2-line"></i>
+            <i class="ri-briefcase-4-fill"></i>
           </div>
-        </div>
-        <div class="card card2">
-          <img src="./images/bear.jpg" alt="bear" class="card__image" />
-          <div class="card__text">
-            <hr />
-            <h2 class="card__text__title">Nostra adpiscing</h2>
-            <p class="card__text__para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              dolorem nisi dolores quisquam quibusdam impedit et unde eius,
-              veritatis debitis molestias reprehenderit architecto delectus
-              recusandae sequi dolor! Quidem, sapiente accusamus.
-            </p>
-            <button class="card__text__details" type="button">DETAILS</button>
-          </div>
-        </div>
-        <div class="card card3">
-          <img src="./images/man.jpg" alt="man" class="card__image" />
-          <div class="card__text">
-            <hr />
-            <h2 class="card__text__title">Tempus litoria</h2>
-            <p class="card__text__para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              dolorem nisi dolores quisquam quibusdam impedit et unde eius,
-              veritatis debitis molestias reprehenderit architecto delectus
-              recusandae sequi dolor! Quidem, sapiente accusamus.
-            </p>
-            <button class="card__text__details" type="button">DETAILS</button>
-          </div>
-        </div>
-        <p class="duis__last-para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsa
-          perferendis repellendus eum quibusdam nihil sapiente qui saepe sunt
-          illum aspernatur, voluptas ipsum voluptates tenetur ea, corporis
-          accusantium non officiis? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Animi provident, dicta, perspiciatis molestiae
-          officiis esse a impedit in, sunt ab ut! Impedit quam non mollitia quod
-          explicabo nesciunt tempore doloribus?
-        </p>
-        <button class="duis__details" type="button">DETAILS</button>
-      </section>
-      <section class="amet">
-        <div class="amet__overlay"></div>
-        <h1 class="amet__title">Amet ullamcorper</h1>
-        <p class="amet__para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas
-          corrupti ipsam ipsum aliquid numquam nesciunt atque assumenda? Itaque
-          omnis modi autem dolore error, consequuntur voluptatum voluptatem
-          quibusdam nobis hic.
-        </p>
-        <button class="GET STARTED" type="button"></button>
-      </section>
-      <section class="magna">
-        <div class="magna__text">
-          <hr />
-          <h1 class="magna__text__title">Magna lorem ipsum</h1>
-          <p class="magna__text__para">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
-            necessitatibus laudantium perspiciatis? Commodi rem cum totam optio
-            magnam natus vero! Eveniet voluptatum officiis nisi, in voluptatem
-            veritatis porro perferendis odio.
+          <p class="ipsum__second-para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
+            temporibus hic autem, ad veritatis repellat ipsa corporis voluptatibus
+            repudiandae rem eaque sequi, blanditiis, quia impedit quam veniam
+            dignissimos quaerat aperiam. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quaerat ut deleniti ratione eum laboriosam quis ipsa
+            dolores obcaecati tenetur quas error aspernatur exercitationem,
+            perspiciatis quod ullam recusandae sed corporis eveniet?
           </p>
-          <div class="magna__text__social">
-            <i class="ri-twitter-fill"></i>
-            <i class="ri-instagram-fill"></i>
-            <i class="ri-snapchat-fill"></i>
-            <i class="ri-github-fill"></i>
+          <button class="ipsum__details" type="button">DETAILS</button>
+        </section>
+        <section class="duis">
+          <div class="duis__header">
+            <hr />
+            <h1 class="duis__header__title">Duis torquent</h1>
+            <p class="duis__header__title">
+              Return facilisis. Class aptent taciti sociosqu litora torquent et
+              conubia etiam nostra.
+            </p>
           </div>
-        </div>
-        <form action="#" class="magna__form">
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Name"
-            aria-label="Name"
-          />
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email"
-            aria-label="Email"
-          />
-          <textarea
-            rows="5"
-            cols="50"
-            aria-label="Message"
-            placeholder="Message"
-          ></textarea>
-          <button type="button">SEND MESSAGE</button>
-        </form>
-      </section>
-    </main>
+          <div class="card card1">
+            <img
+              src="./images/escalator.jpg"
+              alt="escalator"
+              class="card__image"
+            />
+            <div class="card__text">
+              <hr />
+              <h2 class="card__text__title">Aliquam veroeros</h2>
+              <p class="card__text__para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                dolorem nisi dolores quisquam quibusdam impedit et unde eius,
+                veritatis debitis molestias reprehenderit architecto delectus
+                recusandae sequi dolor! Quidem, sapiente accusamus.
+              </p>
+              <button class="card__text__details" type="button">DETAILS</button>
+            </div>
+          </div>
+          <div class="card card2">
+            <img src="./images/bear.jpg" alt="bear" class="card__image" />
+            <div class="card__text">
+              <hr />
+              <h2 class="card__text__title">Nostra adpiscing</h2>
+              <p class="card__text__para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                dolorem nisi dolores quisquam quibusdam impedit et unde eius,
+                veritatis debitis molestias reprehenderit architecto delectus
+                recusandae sequi dolor! Quidem, sapiente accusamus.
+              </p>
+              <button class="card__text__details" type="button">DETAILS</button>
+            </div>
+          </div>
+          <div class="card card3">
+            <img src="./images/man.jpg" alt="man" class="card__image" />
+            <div class="card__text">
+              <hr />
+              <h2 class="card__text__title">Tempus litoria</h2>
+              <p class="card__text__para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                dolorem nisi dolores quisquam quibusdam impedit et unde eius,
+                veritatis debitis molestias reprehenderit architecto delectus
+                recusandae sequi dolor! Quidem, sapiente accusamus.
+              </p>
+              <button class="card__text__details" type="button">DETAILS</button>
+            </div>
+          </div>
+          <p class="duis__last-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsa
+            perferendis repellendus eum quibusdam nihil sapiente qui saepe sunt
+            illum aspernatur, voluptas ipsum voluptates tenetur ea, corporis
+            accusantium non officiis? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Animi provident, dicta, perspiciatis molestiae
+            officiis esse a impedit in, sunt ab ut! Impedit quam non mollitia quod
+            explicabo nesciunt tempore doloribus?
+          </p>
+          <button class="duis__details" type="button">DETAILS</button>
+        </section>
+        <section class="amet">
+          <div class="amet__overlay"></div>
+          <h1 class="amet__title">Amet ullamcorper</h1>
+          <p class="amet__para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas
+            corrupti ipsam ipsum aliquid numquam nesciunt atque assumenda? Itaque
+            omnis modi autem dolore error, consequuntur voluptatum voluptatem
+            quibusdam nobis hic.
+          </p>
+          <button class="GET STARTED" type="button"></button>
+        </section>
+        <section class="magna">
+          <div class="magna__text">
+            <hr />
+            <h1 class="magna__text__title">Magna lorem ipsum</h1>
+            <p class="magna__text__para">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+              necessitatibus laudantium perspiciatis? Commodi rem cum totam optio
+              magnam natus vero! Eveniet voluptatum officiis nisi, in voluptatem
+              veritatis porro perferendis odio.
+            </p>
+            <div class="magna__text__social">
+              <i class="ri-twitter-fill"></i>
+              <i class="ri-instagram-fill"></i>
+              <i class="ri-snapchat-fill"></i>
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <form action="#" class="magna__form">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              aria-label="Name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              aria-label="Email"
+            />
+            <textarea
+              rows="5"
+              cols="50"
+              aria-label="Message"
+              placeholder="Message"
+            ></textarea>
+            <button type="button">SEND MESSAGE</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <small>
+          © Untitled. All rights reserved lorem ipsum dolor sit amet nolam</small
+        >
+      </footer>
+    </div>
   </body>
 </html>
