@@ -411,3 +411,160 @@ footer {
 }
 
 /* *Ending the styles for mobile screens */
+
+/* *Starting the styles for desktop design */
+
+@media only screen and (min-width: 1200px) {
+  .reflex {
+    flex-direction: row;
+    gap: 5rem;
+    width: 60%;
+  }
+  .reflex__new-york {
+    width: 15rem;
+    height: 15rem;
+    opacity: 0.7;
+  }
+  .reflex__texts {
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+  .reflex__texts__title {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  .reflex__texts__para {
+    text-align: left;
+    font-size: 1rem;
+  }
+  .reflex__texts button {
+    width: 12rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+  }
+  .ipsum {
+    gap: 3rem;
+  }
+  .ipsum__first-para {
+    width: 40%;
+    font-size: 1rem;
+  }
+  .ipsum__icons {
+    flex-wrap: nowrap;
+    gap: 5rem;
+  }
+  .ipsum__icons i {
+    width: 7rem;
+    height: 7rem;
+    font-size: xxx-large;
+    position: relative;
+  }
+  .ipsum__icons i:not(:last-of-type):after {
+    content: "";
+    position: absolute;
+    right: -5.1rem;
+    top: 50%;
+    width: 5rem;
+    height: 0.2rem;
+    background-color: var(--light-black);
+  }
+  .ipsum__second-para {
+    width: 75%;
+    font-size: medium;
+    letter-spacing: 1.5px;
+  }
+  .ipsum button {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 3rem;
+  }
+  .duis .card:nth-child(even) {
+    display: flex;
+    gap: 5rem;
+    flex-direction: row-reverse;
+    padding: 0 8rem;
+  }
+  .duis .card:nth-child(odd) {
+    display: flex;
+    gap: 5rem;
+    flex-direction: row;
+    padding: 0 8rem;
+  }
+  .duis .card .card__image {
+    width: 50%;
+  }
+  .duis .card .card__text {
+    width: 50%;
+    align-items: flex-start;
+  }
+  .card__text__para {
+    text-align: left;
+  }
+  .card__text__details {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+    color: var(--light-black);
+    border-color: var(--light-black);
+  }
+  .duis__last-para {
+    width: 75%;
+    margin: 2rem 0;
+  }
+  .duis__last-line {
+    display: none;
+  }
+  .duis__details {
+    width: 8rem;
+    height: 3rem;
+    color: var(--light-black);
+    border-color: var(--light-black);
+    margin-bottom: 5rem;
+  }
+  .amet {
+    height: 80vh;
+    padding: 22rem;
+    gap: 2rem;
+  }
+  .amet .amet__button {
+    width: 10rem;
+    height: 3rem;
+    padding: 1.5rem 0;
+    line-height: 0rem;
+    font-size: medium;
+  }
+  .magna {
+    height: 70vh;
+    flex-direction: row;
+    padding: 0 8rem;
+  }
+  .magna__text {
+    height: 70%;
+    gap: 3rem;
+    align-items: flex-start;
+  }
+  .magna__text__para {
+    text-align: left;
+    width: 80%;
+  }
+  .magna__text__social i {
+    width: 3rem;
+    height: 3rem;
+  }
+  input {
+    height: 3rem;
+  }
+  textarea {
+    height: 15rem;
+  }
+  .magna__form button {
+    width: 10rem;
+  }
+  footer hr {
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(238, 238, 238);
+  }
+}
+
+/* *Ending the styles for desktop design */
